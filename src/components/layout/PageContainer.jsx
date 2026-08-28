@@ -1,0 +1,7 @@
+function PageContainer({ children, className = '' }) {
+  const classes = ['rp-page-container', className].filter(Boolean).join(' ')
+
+  return <div className={classes}>{children}</div>
+}
+
+export default PageContainer
